@@ -21,10 +21,10 @@ export default function PlaceOrder() {
                 <input type="text" placeholder="State" />
               </div>
               <div className="multi-fields">
-                <input type="email" placeholder="Zip code" />
+                <input type="number" placeholder="Zip code" />
                 <input type="text" placeholder="country" />
               </div>
-              <input type="text" placeholder="Phone" />
+              <input type="number" placeholder="Phone" />
           </div>
           <div className="place-order-right">
           <div className="cart-total">
